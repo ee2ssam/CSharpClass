@@ -35,7 +35,26 @@ public class SwitchNote : MonoBehaviour
         }*/
 
         //위의 switch문을 if문으로 구현해보세요
-
+        if (answer == 1) //case 1:
+        {
+            Debug.Log("1번 답을 선택했습니다");
+        }
+        else if (answer == 2) //case 2:
+        {
+            Debug.Log("2번 답을 선택했습니다");
+        }
+        else if (answer == 3)
+        {
+            Debug.Log("3번 답을 선택했습니다");
+        }
+        else if (answer == 4)
+        {
+            Debug.Log("4번 답을 선택했습니다");
+        }
+        else //default:
+        {
+            Debug.Log("잘못 선택했습니다");
+        }
 
     }
 }
