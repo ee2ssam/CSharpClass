@@ -11,7 +11,7 @@ public class FunctionDemo : MonoBehaviour
     }
 
     //[3]매개변수(Parameter)가 있는 함수 만들기(선언, 정의)
-    //매개변수를 통해 들어온 문자열을 출력하는 함수
+    //기능: 매개변수를 통해 들어온 문자열을 출력하는 함수
     void ShowMessage(string message)
     {
         Debug.Log(message);
@@ -30,14 +30,15 @@ public class FunctionDemo : MonoBehaviour
     {
         //[2]반환값이 없는 함수 사용하기,호출하기, call
         Hi();
-        //Hi();
-        //Hi();
+        Hi();
+        Hi();
 
         ShowMessage("반갑습니다");
         ShowMessage("또 만나요");
 
         //[5]반환값이 있는 함수 사용하기 호출하기
         //반환값과 같은 데이터 타입의 변수로 반환값을 저장한다
+        //반환값을 받아줄 변수를 선언해서 값을 받아온다
         string reValue = GetString();
         Debug.Log(reValue);
     }
@@ -71,7 +72,7 @@ void 함수이름(매개변수)
 {
     //하나 이상의 명령문...
 
-    return (데이터타입)변수;
+    return (데이터타입)변수, 또는 식, 값;
 }
 
 */
