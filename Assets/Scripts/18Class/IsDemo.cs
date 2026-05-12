@@ -50,6 +50,7 @@ public class IsDemo : MonoBehaviour
 데이터 타입: 변수가 값을 저장하는 방식 분류
 값 형식(value type) : 객체에 값 자체를 담고 있는 구조, int, long, float, double, 구조체
 참조 형식(reference type) : 객체에 값을 담고 있고 또 다른 객체를 포인터로 바라보는 구조, string, 클래스 인스턴스
+: 참조 형식의 변수(인스턴스)에 값이 없는 상태를 null이라고 한다
 
 object : c#에서 제공하는 모든 자료형의 부모, object 형식의 변수는 모든 형식의 값 할당이 가능
 
