@@ -398,6 +398,12 @@ GameObject:
   - component: {fileID: 668157316}
   - component: {fileID: 668157321}
   - component: {fileID: 668157322}
+  - component: {fileID: 668157323}
+  - component: {fileID: 668157324}
+  - component: {fileID: 668157325}
+  - component: {fileID: 668157326}
+  - component: {fileID: 668157327}
+  - component: {fileID: 668157328}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -529,11 +535,83 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668157315}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7e811db6c87fd442958b49dbac8e3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClassArray
+--- !u!114 &668157323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998b7cd8e5c978d4ea7282f5340f060d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceDemo
+--- !u!114 &668157324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00a7ba4db951734398c96e1bca3cf8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceNote
+--- !u!114 &668157325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723f8e266ca77fd4c8a963eaa54079ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrivatePublic.VariableScope
+--- !u!114 &668157326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5012ba2d0620041a17321199720631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrivatePublic.FieldDemo
+--- !u!114 &668157327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bff9a2ff7c6c4b4fa35acb300549ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrivatePublic.FieldNote
+--- !u!114 &668157328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668157315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d37517355673d4da72cf203b69baae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrivatePublic.FieldStatic
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
